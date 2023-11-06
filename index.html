@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tema 3 - DWEC / DIW</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header>
+        <h1>Tema 3 DWEC / DIW</h1>
+    </header>
+    
+    <section>
+        <h2>Objeto window</h2>
+        <p>El objeto window es la ventana principal del navegador.</p>
+        <h3>Gestion de ventanas</h3>
+        <button onclick="abrirNuevaVentana()">Abrir Nueva Ventana</button>
+        <button onclick="abrirMismaVentana()">Abrir Misma Ventana</button>
+
+        <!-- Es una mala practica, por el concepto de usabilidad -->
+        <iframe src="https://hotellallastra.app" width="400" height="600"></iframe>
+
+        <br>
+        <br>
+
+        <h3>Propiedades y métodos</h3>
+        <p>Ancho de la ventana: <span id="anchoVentana"></span> píxeles</p>
+        <p>Altura de la ventana: <span id="alturaVentana"></span> píxeles</p>
+
+    </section>
+
+    <section>
+        <h2>Objeto location</h2>
+        <p>El objeto location se utiliza para acceder a la URL del navegador</p>
+        <p>URL actual: <span id="urlActual"></span></p>
+    </section>
+
+    <section>
+        <h2>Objeto navegador</h2>
+        <p>El objeto navigator proporciona informacionb sobre el navegador del usuario.</p>
+        <p>Navegador: <span id="navegadorInfo"></span></p>
+    </section>
+
+    <section>
+        <h2>Objeto document</h2>
+        <p>El objeto document representa el contenido de la pagina web</p>
+        <p>Numero de enlaces en la página: <span id="numeroEnlaces"></span></p>
+        <a href=""></a>
+        <a href=""></a>
+        <a href=""></a>
+    </section>
+    <script src="scripts/index.js"></script>
+</body>
+</html>
