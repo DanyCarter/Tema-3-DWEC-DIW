@@ -42,6 +42,7 @@ button{
     transition: background-color 0.3s ease, transform 0,2s ease;
 }
 
+/* Cambio de color y animacion al pasar el mouse */
 button:hover{
     background-color: #114f78;
     transform: scale(1.1);
